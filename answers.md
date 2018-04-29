@@ -1,1 +1,2 @@
-Your answers to the questions go here.
+sudo apt get install curl
+DD_API_KEY=72ae13ce52281b4eb08e3efe8b6858eb bash -c "$(curl -L https://raw.githubusercontent.com/DataDog/datadog-agent/master/cmd/agent/install_script.sh)"
